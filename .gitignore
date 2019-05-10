@@ -2,5 +2,3 @@
 scratch
 node_modules
 .idea
-*.js
-*.map
