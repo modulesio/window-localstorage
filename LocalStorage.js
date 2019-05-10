@@ -10,7 +10,7 @@
 
   events = require('events');
 
-  writeSync = require('write-file-atomic').sync;
+  writeSync = fs.writeFileSync;
 
   KEY_FOR_EMPTY_STRING = '---.EMPTY_STRING.---';
 
