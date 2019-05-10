@@ -21,23 +21,10 @@
     "url": "http://github.com/lmaccherone/node-localstorage.git"
   },
   "preferGlobal": false,
-  "devDependencies": {
-    "coffee-script": "^1.10.0",
-    "lodash": "^3.10.1",
-    "nodeunit": "~0.9.0"
-  },
-  "scripts": {
-    "test": "cake test",
-    "docompile": "cake compile",
-    "prepublish": "cake compile"
-  },
   "licenses": [
     {
       "type": "MIT",
       "url": "http://www.opensource.org/licenses/MIT"
     }
-  ],
-  "dependencies": {
-    "write-file-atomic": "^1.1.4"
-  }
+  ]
 }
